@@ -1,9 +1,7 @@
-
-
+import java.util.*;
 public interface State {
- 
-	public void insertQuarter();
-	public void ejectQuarter();
-	public void turnCrank();
-	public void dispense();
+    public void insertCoins(List<Integer> coinList);
+    public void ejectQuarter();
+    public void turnCrank();
+    public void dispense();
 }
