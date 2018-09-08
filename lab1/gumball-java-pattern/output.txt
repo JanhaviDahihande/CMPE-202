@@ -1,0 +1,33 @@
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 5 gumballs
+Machine is waiting for quarter
+
+You inserted a quarter
+Machine 1 selected
+You turned...
+A gumball comes rolling out the slot...
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 4 gumballs
+Machine is waiting for quarter
+
+You inserted a quarter
+Machine 2 selected
+Got two quarters
+Process done
+You turned...
+A gumball comes rolling out the slot...
+You inserted a quarter
+Machine 3 selected
+Process done
+You turned...
+A gumball comes rolling out the slot...
+
+Mighty Gumball, Inc.
+Java-enabled Standing Gumball Model #2004
+Inventory: 2 gumballs
+Machine is waiting for quarter
+
