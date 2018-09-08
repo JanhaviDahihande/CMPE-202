@@ -1,0 +1,21 @@
+GumballMachine@1ecc951
+You input 25cents
+Machine 1 selected
+Thanks for your money.  Gumball Ejected!
+
+You input 25cents
+You input 25cents
+Machine 2 selected
+Got two quarters
+Process done
+Thanks for your money.  Gumball Ejected!
+
+You input 25cents
+You input 10cents
+You input 10cents
+You input 5cents
+Machine 3 selected
+Process done
+Thanks for your money.  Gumball Ejected!
+
+GumballMachine@1ecc951
