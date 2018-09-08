@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class GumballMachine {
  
@@ -22,8 +22,8 @@ public class GumballMachine {
 		} 
 	}
  
-	public void insertQuarter() {
-		state.insertQuarter();
+	public void insertCoins(List<Integer> coinList) {
+		state.insertCoins(coinList);
 	}
  
 	public void ejectQuarter() {
