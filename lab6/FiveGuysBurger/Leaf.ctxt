@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Leaf
+comment1.params=d\ p
+comment1.target=Leaf(java.lang.String,\ java.lang.Double)
+comment2.params=d
+comment2.target=Leaf(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment4.params=
+comment4.target=java.lang.String\ getPosition()
+comment5.params=
+comment5.target=double\ getPrice()
+comment6.params=
+comment6.target=java.lang.String\ getPackingDescription()
+numComments=7

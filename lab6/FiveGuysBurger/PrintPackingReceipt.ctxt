@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=PrintPackingReceipt
+comment1.params=order
+comment1.target=java.lang.String\ getDescription(Order)
+numComments=2

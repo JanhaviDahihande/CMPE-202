@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Composite
+comment1.params=d
+comment1.target=Composite(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment3.params=
+comment3.target=double\ getPrice()
+comment4.params=
+comment4.target=java.lang.String\ getPosition()
+comment5.params=
+comment5.target=java.lang.String\ getPackingDescription()
+numComments=6

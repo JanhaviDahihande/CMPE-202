@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Fries
+comment1.params=d\ quantity\ price
+comment1.target=Fries(java.lang.String,\ int,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getDescription()
+comment3.params=
+comment3.target=java.lang.String\ getPackingDescription()
+comment4.params=
+comment4.target=double\ getPrice()
+numComments=5
