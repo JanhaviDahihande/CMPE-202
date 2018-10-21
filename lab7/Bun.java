@@ -1,17 +1,25 @@
-public class Toppings extends LeafDecorator
+public class Bun extends LeafDecorator
 {
     private String[] options ;
     
     
-    public Toppings( String d )
+    public Bun( String d )
     {
         super(d) ;
     }
     
-   
+    // premium cheese +1.50
     public void setOptions( String[] options )
     {
         this.options = options ;
+        if ( options.length > 0 ){
+            for(String option:options){
+                if(option.equals("Gluten-Free Bun") || option.equals("Hawaiian Bun"))
+                    this.price+=1.00;
+                else if(option.equals("Pretzel Bun"))
+                    this.price+=0.50;
+            }
+        }
     }
     
     public String getDescription() 

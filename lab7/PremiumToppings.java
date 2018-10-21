@@ -1,17 +1,26 @@
-public class Toppings extends LeafDecorator
+public class PremiumToppings extends LeafDecorator
 {
     private String[] options ;
     
     
-    public Toppings( String d )
+    public PremiumToppings( String d )
     {
         super(d) ;
     }
     
-   
+    // premium topping +1.00
     public void setOptions( String[] options )
     {
         this.options = options ;
+        if ( options.length > 0 )
+        {
+            for(String option:options){
+                if(option.equals("Marinated Tomatoes"))
+                    this.price += 3.00;
+                else
+                    this.price += 1.00 ;
+            }
+        }   
     }
     
     public String getDescription() 
