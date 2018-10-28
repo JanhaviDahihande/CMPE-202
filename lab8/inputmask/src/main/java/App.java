@@ -18,6 +18,8 @@ public class App {
         exp = new CreditCardExp();
         cvc = new CreditCardCVC();
 
+        num.setWrapper(new SpaceDecorator());
+        exp.setWrapper(new SlashDecorator());
         screen.addSubComponent(num);
         screen.addSubComponent(exp);
         screen.addSubComponent(cvc);
@@ -39,8 +41,19 @@ public class App {
     }
 
     public void key(String ch) {
-        count++;
-        screen.key(ch, count);
+        if(ch.matches("1|2|3|4|5|6|7|8|9|0")) {
+            if(count < 23)
+                count = count + 1;
+            else
+               count = count + 0;
+            System.out.println("Screen: " + screen.name());
+            screen.key(ch, count);
+        }
+        System.out.println("\nCount = " + count);
+        if(ch.matches("x|X") && count>0) {
+            screen.key(ch, count);
+            count--;
+        }
     }
 
 }
