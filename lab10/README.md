@@ -11,7 +11,11 @@ The shortcomings of the Lab 1 code are overcome here.
 - The input coins and the cost are decided according to the user input in the configuration file and the model.xml shown below.
 - This induces a modular design and decreased amount of scattered code.
 - Therefore, addition of new functionality becomes very easy and includes almost no amount of rework.
-- As the user chooses the inputs in the configuration file itself, the validation is guaranteed before running the actual code.
+- As the user chooses the inputs in the configuration file itself, the check for one valid possible configuration is done before running the actual code.
+
+## Config file
+
+![Config](Screenshots/config.png)
 
 ## Model
 
